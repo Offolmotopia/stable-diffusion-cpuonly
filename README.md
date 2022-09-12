@@ -58,7 +58,7 @@ https://curl.se/windows/
 
 
 
-run from stable-diffusion-cpuonly directory
+Run with Anaconda prompt, from stable-diffusion-cpuonly directory
 
 ```
 mkdir -p models/ldm/stable-diffusion-v1/
