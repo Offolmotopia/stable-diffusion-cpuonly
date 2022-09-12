@@ -58,7 +58,7 @@ https://curl.se/windows/
 
 
 
-Run with Anaconda prompt, from stable-diffusion-cpuonly directory
+Run from stable-diffusion-cpuonly directory
 
 ```
 mkdir -p models/ldm/stable-diffusion-v1/
@@ -69,6 +69,7 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 conda env create -f environment-cpuonly.yaml
 conda activate ldm
 ```
+Run the following commands with Anaconda Prompt:
 ```
 pip install pynvml gradio keras-unet fairseq basicsr facexlib
 pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
